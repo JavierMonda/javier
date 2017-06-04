@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Home</a>
+                <a class="navbar-brand topnav" href="#">Javier Jiménez</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -18,7 +18,7 @@
                         <a href="#about">Acerca de</a>
                     </li>
                     <li>
-                        <a href="#services">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a href="/blog">Blog</a>
