@@ -51,7 +51,7 @@
                     <h3>Web con WordPress</h3>
                     <p class="lead text-muted">Esta es una web realizada con WordPress para un centro educativo. Contiene plugin para una red social interna en la web.</p>
                     <p>
-                        <a href="{{ url('https://javier.ml/proyectos/majadamarcial') }}" class="btn btn-default" target="_blank" role="button">Ver</a>
+                        <a href="{{ url('https://javierjg.es/proyectos/majadamarcial') }}" class="btn btn-default" target="_blank" role="button">Ver</a>
                     </p>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                     <h3>Tienda Online con Laravel</h3>
                     <p class="lead text-muted">Ejemplo de Tienda Online con sistema de login y carrito. Realizado en PHP y MySQL como gestor de la Base de Datos, usando el framework Laravel.</p>
                     <p>
-                        <a href="https://javier.ml/proyectos/carrito/" class="btn btn-default" target="_blank" role="button">Ver</a>
+                        <a href="https://javierjg.es/proyectos/carrito/" class="btn btn-default" target="_blank" role="button">Ver</a>
                     </p>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                     <h3>Tienda con PrestaShop</h3>
                     <p class="lead text-muted">En esta ocasión he utilizado el CMD PrestaShop para realizar una Tienda Online.</p>
                     <p>
-                        <a href="{{ url('https://javier.ml/proyectos/prestashop/es/') }}" target="_blank" class="btn btn-default" role="button">Ver</a>
+                        <a href="{{ url('https://javierjg.es/proyectos/prestashop/es/') }}" target="_blank" class="btn btn-default" role="button">Ver</a>
                     </p>
                 </div>
             </div>
