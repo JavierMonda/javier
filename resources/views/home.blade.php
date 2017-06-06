@@ -37,11 +37,34 @@
 </div>
 
 <!-- Page Content -->
+
+<div class="container">
+    <p class="lead">
+        Actualmente estoy trabajando en esta web y puede que algunos elementos no se visualicen correctamente, pronto estará terminada, un saludo!!
+    </p>
+</div>
+<!-- Sobre mi -->
+<a name="sobremi">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-8 col-lg-9">
+        <h2>Sobre Mi</h2>
+        <p class="lead">
+            Brevemente me describo como una persona capaz de adaptarme a diferentes puestos y equipos de trabajo. Siempre he sido muy trabajador, activo, observador y educado. Busco retos donde pueda transmitir toda mi pasión por la Informática, toda la experiencia adquirida en mi vida profesional y todo el conocimiento aprendido.
+        </p>
+        <p class="lead">
+            En  mi blog puede leer una descripción algo más detallada.
+            <a href="{{ url('https://javierjg.es/blog/sobre-mi/') }}" target="_blank">Leer Post</a>
+        </p>
+    </div>   
+</div>
+
+<!-- Portfolio -->
 <a name="portfolio"></a>
 <div class="container">
     <h2>Portfolio</h2>
     <p class="lead">
-        Proyectos y trabajos que he realizado hasta el momento en Diseño Web
+        Estos son algunos de mis proyectos y trabajos que he realizado: Webs y Blogs con WordPress, Tiendas Online con PrestaShop o usando el Framework Laravel (Esta página que está viendo está realizada con Laravel).
     </p>
     <div class="row">
         <div class="col-sm-6 col-md-4">
@@ -49,9 +72,9 @@
                 <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/wordpress.png') }}" alt="Proyecto WordPress">
                 <div class="caption">
                     <h3>Web con WordPress</h3>
-                    <p class="lead text-muted">Esta es una web realizada con WordPress para un centro educativo. Contiene plugin para una red social interna en la web.</p>
+                    <p class="lead text-muted">Esta es una web realizada con WordPress para un Restaurante situado en Coín (Málaga)</p>
                     <p>
-                        <a href="{{ url('https://javierjg.es/proyectos/majadamarcial') }}" class="btn btn-default" target="_blank" role="button">Ver</a>
+                        <a href="{{ url('http:www.lasalberquillas.com') }}" class="btn btn-default" target="_blank" role="button">Ver</a>
                     </p>
                 </div>
             </div>
@@ -61,7 +84,7 @@
                 <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/tienda-online.png') }}" alt="Tienda Online Laravel">
                 <div class="caption">
                     <h3>Tienda Online con Laravel</h3>
-                    <p class="lead text-muted">Ejemplo de Tienda Online con sistema de login y carrito. Realizado en PHP y MySQL como gestor de la Base de Datos, usando el framework Laravel.</p>
+                    <p class="lead text-muted">Ejemplo de Tienda Online con sistema de login y carrito. Realizado en PHP con el framework Laravel, y MySQL como gestor de la Base de Datos.</p>
                     <p>
                         <a href="https://javierjg.es/proyectos/carrito/" class="btn btn-default" target="_blank" role="button">Ver</a>
                     </p>

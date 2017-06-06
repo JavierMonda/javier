@@ -15,13 +15,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">Acerca de</a>
+                        <a href="#sobremi">Sobre Mi</a>
                     </li>
                     <li>
                         <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="/blog">Blog</a>
+                        <a href="/blog" target="_blank">Blog</a>
                     </li>
                     <li>
                         <a href="#contact">Contacto</a>
