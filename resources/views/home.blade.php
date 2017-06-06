@@ -48,14 +48,15 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-md-8 col-lg-9">
-        <h2>Sobre Mi</h2>
-        <p class="lead">
-            Brevemente me describo como una persona capaz de adaptarme a diferentes puestos y equipos de trabajo. Siempre he sido muy trabajador, activo, observador y educado. Busco retos donde pueda transmitir toda mi pasión por la Informática, toda la experiencia adquirida en mi vida profesional y todo el conocimiento aprendido.
-        </p>
-        <p class="lead">
-            En  mi blog puede leer una descripción algo más detallada.
-            <a href="{{ url('https://javierjg.es/blog/sobre-mi/') }}" target="_blank">Leer Post</a>
-        </p>
+            <h2>Sobre Mi</h2>
+            <p class="lead">
+                Brevemente me describo como una persona capaz de adaptarme a diferentes puestos y equipos de trabajo. Siempre he sido muy trabajador, activo, observador y educado. Busco retos donde pueda transmitir toda mi pasión por la Informática, toda la experiencia adquirida en mi vida profesional y todo el conocimiento aprendido.
+            </p>
+            <p class="lead">
+                En  mi blog puede leer una descripción algo más detallada.
+                <a href="{{ url('https://javierjg.es/blog/sobre-mi/') }}" class="btn btn-default" target="_blank" role="button">Leer Post</a>
+            </p>
+        </div>
     </div>   
 </div>
 
