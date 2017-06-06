@@ -25,7 +25,7 @@
         </div>
         <div itemscope itemtype="http://schema.org/Person">
             Nombre: <span itemprop="name">Javier Jiménez García</span>
-            Foto: <img src="https://javierjg.es/assets/bootstrap/img/perfil.png" itemprop="image" alt="Foto de Javier Jiménez García"/>
+            Foto: <img src="https://javierjg.es/assets/bootstrap/img/perfil.png" itemprop="image" style="height: 32px; width: 32px;" alt="Foto de Javier Jiménez García"/>
             Web: <a href="https://javierjg.es" itemprop="url">javierjg.es</a>
     </div>
     </div>
