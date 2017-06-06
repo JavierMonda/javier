@@ -70,12 +70,12 @@
     <div class="row">
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/wordpress.png') }}" alt="Proyecto WordPress">
+                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/lasalberquillas.png') }}" alt="Proyecto WordPress">
                 <div class="caption">
                     <h3>Web con WordPress</h3>
                     <p class="lead text-muted">Esta es una web realizada con WordPress para un Restaurante situado en Coín (Málaga)</p>
                     <p>
-                        <a href="{{ url('http:www.lasalberquillas.com') }}" class="btn btn-default" target="_blank" role="button">Ver</a>
+                        <a href="http:www.lasalberquillas.com" class="btn btn-default" target="_blank" role="button">Ver</a>
                     </p>
                 </div>
             </div>
