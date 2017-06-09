@@ -47,8 +47,9 @@
 <a name="sobremi"></a>
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-md-8 col-lg-9">
+        <div class="col-xs-12 col-md-12 col-lg-12">
             <h2>Sobre Mi</h2>
+            <hr class="hr-custom"/>
             <p class="lead">
                 Brevemente me describo como una persona capaz de adaptarme a diferentes puestos y equipos de trabajo. Siempre he sido muy trabajador, activo, observador y educado. Busco retos donde pueda transmitir toda mi pasión por la Informática, toda la experiencia adquirida en mi vida profesional y todo el conocimiento aprendido.
             </p>
@@ -64,11 +65,12 @@
 <a name="portfolio"></a>
 <div class="container">
     <h2>Portfolio</h2>
+    <hr class="hr-custom">
     <p class="lead">
         Estos son algunos de mis proyectos y trabajos que he realizado: Webs y Blogs con WordPress, Tiendas Online con PrestaShop o usando el Framework Laravel (Esta página que está viendo está realizada con Laravel).
     </p>
     <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6">
             <div class="thumbnail">
                 <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/lasalberquillas.png') }}" alt="Proyecto WordPress">
                 <div class="caption">
@@ -80,7 +82,21 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6">
+            <div class="thumbnail">
+                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/wordpress.png') }}" alt="Web Centro Educativo">
+                <div class="caption">
+                    <h3>Web Para Centro Educativo</h3>
+                    <p class="lead text-muted">Proyecto para el Ciclo de Grado Superior de Administración de Sistemas Informáticos en Red, donde realicé un "restyling" de la web actual del centro con WordPress</p>
+                    <p>
+                        <a href="https://javierjg.es/proyectos/majadamarcial/" class="btn btn-default" target="_blank" role="button">Ver</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-6">
             <div class="thumbnail">
                 <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/tienda-online.png') }}" alt="Tienda Online Laravel">
                 <div class="caption">
@@ -92,7 +108,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6">
             <div class="thumbnail">
                 <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/tienda-prestashop.png') }}" alt="Tienda Online PrestaShop">
                 <div class="caption">

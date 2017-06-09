@@ -9,17 +9,21 @@
     <meta name="description" content="Javier Jiménez, Diseñador Web y Administrador de Sistemas Informáticos. Fuerteventura. JavierJG">
     <meta name="author" content="Javier Jiménez García">
     <meta name="keywords" content="JavierJG, Diseño Web Fuerteventura, Administrador Sistemas Informaticos Fuerteventura, Fuerteventura, informatico en Fuerteventura, desarrollo web Fuerteventura, Diseño Web Canarias">
+    <meta name="Subject" content="Diseño web Fuerteventura, desarrollo web Canarias"/>
+    <meta name="Robots" content="index, follow"/>
+    <meta name="Revisit-after" content="7 days"/>
+    <meta name="distribution" content="global"/>
 
     <link rel="shortcut icon" href="https://javierjg.es/assets/bootstrap/img/favicon.ico" />
 
-    <title>Diseñador web y Administrador de Sistemas Informaticos - JavierJG</title>
+    <title>Diseño Web en Fuerteventura - JavierJG</title>
 
 
     <!-- Bootstrap Core CSS -->
-    <link href="{{ url('/assets/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url('/assets/bootstrap/css/bootstrap.min.css') }}">
 
     <!-- Custom CSS -->
-    <link href="{{ url('/assets/bootstrap/css/landing-page.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url('/assets/bootstrap/css/landing-page.css') }}">
 
     <!-- Custom Fonts -->
     <link href="{{ url('/assets/bootstrap/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">

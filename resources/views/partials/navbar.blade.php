@@ -21,10 +21,10 @@
                         <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="/blog" target="_blank">Blog</a>
+                        <a href="/blog/" target="_blank">Blog</a>
                     </li>
                     <li>
-                        <a href="#contact">Contacto</a>
+                        <a href="{{ url('/blog/contacto/') }}" target="_blank">Contacto</a>
                     </li>
                 </ul>
             </div>
