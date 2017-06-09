@@ -60,7 +60,7 @@
         </div>
     </div>   
 </div>
-
+<br />
 <!-- Portfolio -->
 <a name="portfolio"></a>
 <div class="container">
@@ -70,7 +70,7 @@
         Estos son algunos de mis proyectos y trabajos que he realizado: Webs y Blogs con WordPress, Tiendas Online con PrestaShop o usando el Framework Laravel (Esta página que está viendo está realizada con Laravel).
     </p>
     <div class="row">
-        <div class="col-sm-6 col-md-6">
+        <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
                 <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/lasalberquillas.png') }}" alt="Proyecto WordPress">
                 <div class="caption">
@@ -82,7 +82,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-6">
+        <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
                 <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/wordpress.png') }}" alt="Web Centro Educativo">
                 <div class="caption">
@@ -94,9 +94,21 @@
                 </div>
             </div>
         </div>
+        <div class="col-sm-4 col-md-4">
+            <div class="thumbnail">
+                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/instituto.png') }}" alt="Web Centro Educativo 2">
+                <div class="caption">
+                    <h3>Web Para Centro Educativo 2</h3>
+                    <p class="lead text-muted">Este proyecto está realizado en PHP y MySQL, usando BootStrap para los estilos</p>
+                    <p>
+                        <a href="https://javierjg.es/proyectos/instituto/" class="btn btn-default" target="_blank" role="button">Ver</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row">
-        <div class="col-sm-6 col-md-6">
+        <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
                 <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/tienda-online.png') }}" alt="Tienda Online Laravel">
                 <div class="caption">
@@ -108,7 +120,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-6">
+        <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
                 <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/tienda-prestashop.png') }}" alt="Tienda Online PrestaShop">
                 <div class="caption">
@@ -116,6 +128,18 @@
                     <p class="lead text-muted">En esta ocasión he utilizado el CMD PrestaShop para realizar una Tienda Online.</p>
                     <p>
                         <a href="{{ url('https://javierjg.es/proyectos/prestashop/es/') }}" target="_blank" class="btn btn-default" role="button">Ver</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+            <div class="thumbnail">
+                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/carreramotor.png') }}" alt="Web para taller mecánico">
+                <div class="caption">
+                    <h3>Web para taller mecánico</h3>
+                    <p class="lead text-muted">Página web realizada para taller mecánico situado en Fuerteventura. Esta web está realizada con HTML5, BootStrap y JavaScript.</p>
+                    <p>
+                        <a href="{{ url('https://carreramotor.es/') }}" target="_blank" class="btn btn-default" role="button">Ver</a>
                     </p>
                 </div>
             </div>
