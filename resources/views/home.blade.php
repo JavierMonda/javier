@@ -3,12 +3,12 @@
 @section('content')
 
 <!-- Header -->
-<a name="about"></a>
+<a id="about"></a>
 <div class="container">
     <div class="row">
         <div class="col-md-4">
             <div class="intro-message" style="text-align: center;">
-                <img class="img-responsive img-circle" src="assets/bootstrap/img/perfil.png" />
+                <img class="img-responsive img-circle" src="/assets/bootstrap/img/perfil.png" alt="Diseñador Web en Fuerteventura"/>
             </div>
         </div>
         <div class="col-md-8">
@@ -44,7 +44,7 @@
     </p>
 </div>
 <!-- Sobre mi -->
-<a name="sobremi"></a>
+<a id="sobremi"></a>
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-md-12 col-lg-12">
@@ -55,14 +55,14 @@
             </p>
             <p class="lead">
                 En  mi blog puede leer una descripción algo más detallada.
-                <a href="{{ url('https://javierjg.es/blog/sobre-mi/') }}" class="btn btn-default" target="_blank" role="button">Leer Post</a>
+                <a href="/blog/sobre-mi/" class="btn btn-default" target="_blank" role="button">Leer Post</a>
             </p>
         </div>
     </div>   
 </div>
 <br />
 <!-- Portfolio -->
-<a name="portfolio"></a>
+<a id="portfolio"></a>
 <div class="container">
     <h2>Portfolio</h2>
     <hr class="hr-custom">
@@ -72,36 +72,36 @@
     <div class="row">
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/lasalberquillas.png') }}" alt="Proyecto WordPress">
+                <img class="img-thumbnail" src="/assets/bootstrap/img/portfolio/lasalberquillas.png" alt="Proyecto WordPress">
                 <div class="caption">
                     <h3>Web con WordPress</h3>
                     <p class="lead text-muted">Esta es una web realizada con WordPress para un Restaurante situado en Coín (Málaga)</p>
                     <p>
-                        <a href="http:www.lasalberquillas.com" class="btn btn-default" target="_blank" role="button">Ver</a>
+                        <a href="http://www.lasalberquillas.com" class="btn btn-default" target="_blank" role="button">Ver</a>
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/wordpress.png') }}" alt="Web Centro Educativo">
+                <img class="img-thumbnail" src="/assets/bootstrap/img/portfolio/wordpress.png" alt="Web Centro Educativo">
                 <div class="caption">
                     <h3>Web Para Centro Educativo</h3>
                     <p class="lead text-muted">Proyecto para el Ciclo de Grado Superior de Administración de Sistemas Informáticos en Red, donde realicé un "restyling" de la web actual del centro con WordPress</p>
                     <p>
-                        <a href="https://javierjg.es/proyectos/majadamarcial/" class="btn btn-default" target="_blank" role="button">Ver</a>
+                        <a href="/proyectos/majadamarcial/" class="btn btn-default" target="_blank" role="button">Ver</a>
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/instituto.png') }}" alt="Web Centro Educativo 2">
+                <img class="img-thumbnail" src="/assets/bootstrap/img/portfolio/instituto.png" alt="Web Centro Educativo 2">
                 <div class="caption">
                     <h3>Web Para Centro Educativo 2</h3>
                     <p class="lead text-muted">Este proyecto está realizado en PHP y MySQL, usando BootStrap para los estilos</p>
                     <p>
-                        <a href="https://javierjg.es/proyectos/instituto/" class="btn btn-default" target="_blank" role="button">Ver</a>
+                        <a href="/proyectos/instituto/" class="btn btn-default" target="_blank" role="button">Ver</a>
                     </p>
                 </div>
             </div>
@@ -110,31 +110,31 @@
     <div class="row">
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/tienda-online.png') }}" alt="Tienda Online Laravel">
+                <img class="img-thumbnail" src="/assets/bootstrap/img/portfolio/tienda-online.png" alt="Tienda Online Laravel">
                 <div class="caption">
                     <h3>Tienda Online con Laravel</h3>
                     <p class="lead text-muted">Ejemplo de Tienda Online con sistema de login y carrito. Realizado en PHP con el framework Laravel, y MySQL como gestor de la Base de Datos.</p>
                     <p>
-                        <a href="https://javierjg.es/proyectos/carrito/" class="btn btn-default" target="_blank" role="button">Ver</a>
+                        <a href="/proyectos/carrito/" class="btn btn-default" target="_blank" role="button">Ver</a>
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/tienda-prestashop.png') }}" alt="Tienda Online PrestaShop">
+                <img class="img-thumbnail" src="/assets/bootstrap/img/portfolio/tienda-prestashop.png" alt="Tienda Online PrestaShop">
                 <div class="caption">
                     <h3>Tienda con PrestaShop</h3>
                     <p class="lead text-muted">En esta ocasión he utilizado el CMD PrestaShop para realizar una Tienda Online.</p>
                     <p>
-                        <a href="{{ url('https://javierjg.es/proyectos/prestashop/es/') }}" target="_blank" class="btn btn-default" role="button">Ver</a>
+                        <a href="/proyectos/prestashop/es/" target="_blank" class="btn btn-default" role="button">Ver</a>
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-                <img class="img-thumbnail" src="{{ url('/assets/bootstrap/img/portfolio/carreramotor.png') }}" alt="Web para taller mecánico">
+                <img class="img-thumbnail" src="/assets/bootstrap/img/portfolio/carreramotor.png" alt="Web para taller mecánico">
                 <div class="caption">
                     <h3>Web para taller mecánico</h3>
                     <p class="lead text-muted">Página web realizada para taller mecánico situado en Fuerteventura. Esta web está realizada con HTML5, BootStrap y JavaScript.</p>
