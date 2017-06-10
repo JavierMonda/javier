@@ -14,19 +14,19 @@
     <meta name="Revisit-after" content="7 days"/>
     <meta name="distribution" content="global"/>
 
-    <link rel="shortcut icon" href="https://javierjg.es/assets/bootstrap/img/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/bootstrap/img/favicon.ico" />
 
     <title>Diseño Web en Fuerteventura - JavierJG</title>
 
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ url('/assets/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ url('/assets/bootstrap/css/landing-page.css') }}">
+    <link rel="stylesheet" href="/assets/bootstrap/css/landing-page.css">
 
     <!-- Custom Fonts -->
-    <link href="{{ url('/assets/bootstrap/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="/assets/bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,10 +58,10 @@
     @extends('partials.footer')
 
     <!-- jQuery -->
-    <script src="{{ url('/assets/bootstrap/js/jquery.js') }}"></script>
+    <script src="/assets/bootstrap/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{{ url('/assets/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
