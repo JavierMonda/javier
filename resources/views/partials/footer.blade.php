@@ -15,15 +15,15 @@
                 </li>
                 <li class="footer-menu-divider">&sdot;</li>
                 <li>
-                    <a href="{{ url('/blog/contacto/') }}">Contacto</a>
+                    <a href="/blog/contacto/">Contacto</a>
                 </li>
                 <li class="footer-menu-divider">&sdot;</li>
                 <li>
-                    <a href="{{ url('/blog/aviso-legal/') }}">Aviso Legal</a>
+                    <a href="/blog/aviso-legal/">Aviso Legal</a>
                 </li>
                 <li class="footer-menu-divider">&sdot;</li>
                 <li>
-                    <a href="{{ url('/blog/politica-de-cookies/') }}">Política de Cookies</a>
+                    <a href="/blog/politica-de-cookies/">Política de Cookies</a>
                 </li>
             </ul>
             
