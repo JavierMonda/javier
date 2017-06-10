@@ -51,11 +51,11 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     
-    @extends('partials.navbar')
+    @include('partials.navbar')
     
     @yield('content')
     
-    @extends('partials.footer')
+    @include('partials.footer')
 
     <!-- jQuery -->
     <script src="/assets/bootstrap/js/jquery.js"></script>
