@@ -18,3 +18,12 @@
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 </IfModule>
+
+<IfModule mod_headers.c> 
+    Header always append X-Frame-Options SAMEORIGIN
+    Header set X-Content-Type-Options nosniff
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Strict-Transport-Security "max-age=10886400; includeSubDomains; preload"
+    Header set Referrer-Policy: no-referrer-when-downgrade
+    #Header set Content-Security-Policy "default-src 'self'"
+</IfModule>
