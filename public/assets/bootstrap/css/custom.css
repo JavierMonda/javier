@@ -1,0 +1,55 @@
+body {
+	font-family: 'ABeeZee', sans-serif;
+	font-weight: 400;
+    font-style: normal;
+    background-color: #F5F5F6;
+}
+h2 {
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	color: #f8f8f8;
+}
+h3 {
+	font-family: 'ABeeZee', sans-serif;
+	color: black;
+}
+.topnav {
+	/*background-color: #E1E2E1;*/
+	background-color: white;
+}
+.principal {
+	/*background-color: #C5C1C1;*/
+	width: 100%;
+}
+.aboutMe {
+	background-color: #E1E2E1;
+	border-radius: 10px 10px 10px 10px;
+}
+.cuerpo {
+	background-color: #E1E2E1;
+	margin-top: 15px;
+	border-radius: 10px 10px 10px 10px;
+}
+.pie {
+	margin: 15px;
+}
+.hr-custom {
+    border:none;
+    height: 20px;
+    width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 3px solid #89abc6;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+    margin-left: 0;
+}
+.alert {
+	text-align: center;
+}
+.navbar-brand {
+	padding: 0px;
+}
+.topnav .navbar-brand>img {
+  height: 80px;
+  padding: 7px 15px;
+}

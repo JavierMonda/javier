@@ -24,10 +24,13 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/bootstrap/css/landing-page.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/custom.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-social.css">
 
     <!-- Custom Fonts -->
     <link href="/assets/bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

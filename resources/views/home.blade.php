@@ -4,48 +4,56 @@
 
 <!-- Header -->
 <a id="about"></a>
-<div class="container">
+<div class="container intro-header">
     <div class="row">
         <div class="col-md-4">
-            <div class="intro-message" style="text-align: center;">
+            <div class="intro-message">
                 <img class="img-responsive img-circle" src="/assets/bootstrap/img/perfil.png" alt="Diseñador Web en Fuerteventura"/>
             </div>
         </div>
         <div class="col-md-8">
-            <div class="intro-message" style="text-align: center;">
+            <div class="intro-message">
                 <h1>Javier Jiménez</h1>
                 <h3>Diseñador Web. Administrador de Sistemas Informáticos.</h3>
                 <hr class="intro-divider">    
                 <ul class="list-inline intro-social-buttons">
                     <li>
-                        <a href="https://www.facebook.com/javierjimenezmonda" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        <a href="https://www.facebook.com/javierjginformatica/" class="btn btn-social-icon btn-facebook" target="_blank">
+                            <span class="fa fa-facebook"></span>
+                          </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/javiermonda" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://twitter.com/javiermonda" class="btn btn-social-icon btn-twitter" target="_blank">
+                            <span class="fa fa-twitter"></span>
+                          </a>
                     </li>
                     <li>
-                        <a href="https://github.com/javiermonda" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/javiermonda" class="btn btn-social-icon btn-github" target="_blank">
+                            <span class="fa fa-github"></span>
+                          </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/javiermonda/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        <a href="https://www.linkedin.com/in/javiermonda/" class="btn btn-social-icon btn-linkedin" target="_blank">
+                            <span class="fa fa-linkedin"></span>
+                          </a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-
 </div>
 
 <!-- Page Content -->
 
 <div class="container">
-    <p class="lead">
-        Actualmente estoy trabajando en esta web y puede que algunos elementos no se visualicen correctamente, pronto estará terminada, un saludo!!
-    </p>
+    <div class="alert alert-warning">
+      <strong>Info!</strong> Actualmente estoy trabajando en esta web y puede que algunos elementos no se visualicen correctamente, pronto estará terminada, un saludo!!
+    </div>
 </div>
+
 <!-- Sobre mi -->
 <a id="sobremi"></a>
-<div class="container">
+<div class="container aboutMe">
     <div class="row">
         <div class="col-xs-12 col-md-12 col-lg-12">
             <h2>Sobre Mi</h2>
@@ -63,7 +71,7 @@
 <br />
 <!-- Portfolio -->
 <a id="portfolio"></a>
-<div class="container">
+<div class="container cuerpo">
     <h2>Portfolio</h2>
     <hr class="hr-custom">
     <p class="lead">
