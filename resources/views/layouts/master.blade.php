@@ -38,13 +38,32 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!--Detección de perfiles sociales -->
+    <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "name" : "JavierJG",
+      "url" : "https://javierjg.es",
+      "sameAs" : [
+        "https://twitter.com/javiermonda",
+        "https://plus.google.com/u/0/+JavierJimenezGarciaMonda",
+        "https://www.facebook.com/javierjginformatica/",
+        "https://www.linkedin.com/in/javiermonda/",
+        "https://www.instagram.com/javier.monda/",
+        "https://www.bebee.com/bee/javier-jimenez-garcia-0gX5"
+     ]
+    }
+    </script>
+    
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-W7SXC2W');</script>
-    <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager --> 
 
 </head>
 
