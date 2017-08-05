@@ -14,7 +14,8 @@
         <div class="col-md-8">
             <div class="intro-message">
                 <h1>Javier Jiménez</h1>
-                <h3>Diseñador Web. Administrador de Sistemas Informáticos.</h3>
+                <h3>Diseño y Desarrollo de Aplicaciones y Páginas Web</h3>
+                <h3>Administrador de Sistemas Informáticos.</h3>
                 <hr class="intro-divider">    
                 <ul class="list-inline intro-social-buttons">
                     <li>
@@ -44,12 +45,6 @@
 </div>
 
 <!-- Page Content -->
-
-<div class="container">
-    <div class="alert alert-warning">
-      <strong>Info!</strong> Actualmente estoy trabajando en esta web y puede que algunos elementos no se visualicen correctamente, pronto estará terminada, un saludo!!
-    </div>
-</div>
 
 <!-- Sobre mi -->
 <a id="sobremi"></a>

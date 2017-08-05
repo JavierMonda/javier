@@ -6,13 +6,6 @@
                     <a href="#">Home</a>
                 </li>
                 <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                    <a href="#sobremi">Sobre Mi</a>
-                </li>
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
                 <li class="footer-menu-divider">&sdot;</li>
                 <li>
                     <a href="/blog/contacto/">Contacto</a>
@@ -25,6 +18,9 @@
                 <li>
                     <a href="/blog/politica-de-cookies/">Política de Cookies</a>
                 </li>
+                <li>
+                    <a href="/blog/politica-privacidad-proteccion-datos/">Política de Privacidad y Protección de Datos</a>
+                </li>
             </ul>
             
         </div>
@@ -36,5 +32,5 @@
             </div>
         </div>
     </div>
-    <p class="copyright text-muted small">Javier Jiménez - Diseño Web</p>       
+    <p class="copyright text-muted small">Javier Jiménez - Diseño y Desarrollo Web desde Fuerteventura</p>       
 </div>
