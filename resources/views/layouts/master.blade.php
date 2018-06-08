@@ -56,7 +56,7 @@
      ]
     }
     </script>
-    
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="648a5815-40ff-4bcc-b70b-f39cfc07bc06" type="text/javascript" async></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
